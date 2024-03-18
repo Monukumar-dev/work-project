@@ -1,0 +1,24 @@
+.image-container {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+  }
+  
+  .magnify-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .magnify-glass {
+    position: absolute;
+    border: 1px solid #ccc;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: none;
+    pointer-events: none;
+    background-repeat: no-repeat;
+    background-size: 300px 300px;
+  }
+  
